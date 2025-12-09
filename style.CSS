@@ -1,0 +1,188 @@
+body {
+margin: 0;
+font-family: 'Inter', Arial, sans-serif;
+background: radial-gradient(circle at top left,#2f3646, #414249);
+color: aliceblue; 
+display: flex;
+justify-content: center;
+padding: 2rem;
+}
+
+.container {
+
+    width: 100%;
+    max-width: 800px;
+    background-color: #5ea0eb;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgb(40, 96, 110);
+    padding: 2rem;
+    
+}
+
+.profile {
+
+    text-align: center;
+    border-bottom: 1px solid #1152b4;
+    padding-bottom: 1.5rem;
+
+}
+    
+.avatar {
+
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #2d77e6;
+    margin-right: 16px;
+    display: flex; 
+    justify-content: left;
+
+}
+ 
+.info {
+
+    font-size: 1.2rem;
+    font-weight: bolder;
+    display: block;
+    justify-content: center;
+    text-align: right; 
+    align-items: flex-start;
+    margin-top: -5.9rem;
+    margin-right: -12rem;
+}
+
+.info h1 {
+
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.info p {
+
+    margin: 4px 0 0;
+    font-size: 0.9rem;
+    color: #e2e4e9;
+    text-align: center;
+
+}
+
+.intro { 
+    margin-top: 30px;
+}
+
+h1 {
+
+    color: #e2e4e9;
+    margin: 0.5rem 0;
+    
+
+}
+
+a {
+
+color: #0c4396;
+text-decoration: none;
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+.social-links {
+
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+.social-links a {
+
+    margin: 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background: #1152b4;
+    border-radius: 8px; 
+    color: #e2e6ec;
+    transition: 0.3s;
+
+}
+
+.social-links a:visited {
+
+  color: rgb(204, 212, 230);
+
+}
+
+.social-links a:hover  {
+
+    background: #2d77e6;
+
+}
+
+#welcomen {
+
+    background: #2d77e6;
+    padding: 1rem; 
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-style: italic;
+
+}
+
+section {
+
+    margin-top: 2rem;
+
+}
+
+h3 {
+
+   color: #186ae6;
+   border-bottom: 1px solid #186ae6;
+   padding-bottom: o.5rem;
+   
+
+}
+
+ul {
+
+    list-style: disc;
+    margin-left: 1.5rem;
+
+}
+
+button {
+
+background: #2d77e6;
+border: none;
+color:#e2e4e9;
+padding: 0.5rem 1rem;
+border-radius: 8px;
+cursor: pointer;
+transition: 0.3s;
+
+}
+
+button:hover {
+
+    background: #1152b4;
+    
+}
+
+footer {
+
+    text-align: center;
+    margin: 2rem;
+    font-size: 0.9rem;
+    color: #e2e6ec
+}
